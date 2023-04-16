@@ -1,12 +1,16 @@
+
 """Generate funny names by randomly combining names from 2 separate lists."""
 import sys
 import random
 
+# Define the main function to generate funny names
 def main():
     """Choose names at random from 2 tuples of names and print to screen."""
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
 
+
+#Define two tuples of possible first and last names
     first = ('Baby Oil', 'Bad News', 'Big Burps', "Bill 'Beenie-Weenie'",
              "Bob 'Stinkbug'", 'Bowel Noises', 'Boxelder', "Bud 'Lite'",
              'Butterbean', 'Buttermilk', 'Buttocks', 'Chad', 'Chesterfield',
